@@ -1,0 +1,36 @@
+.form{
+    height: 60vh;
+    width: 75%;
+    margin: 10vh 10%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left-form-section h1{
+    margin: 20px 0;
+}
+.left-form-section{
+    height: 90%;
+    width: 40%;
+    border: 2.5px solid white;
+    text-align: center;
+    align-items: center;
+}
+.left-form-section input{
+    height: 25px;
+    width: 65%;
+    padding: 3px;
+    margin: 20px 0 0 0;
+    border: .5px solid black;
+}
+.left-form-section textarea{
+    height: 85px;
+    width: 65%;
+    padding: 3px;
+    margin: 20px 0 0 0;
+    border: 1px solid black;
+}
+.left-form-section button{
+    margin: 15px 0;
+}
+

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: aliceblue;
+    padding: 2px 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo h3 {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.middle-nav-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-nav-part a {
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: bold;
+    color: #000000;
+    font-size: larger;
+}
+.middle-nav-part a:hover{
+    text-decoration: underline;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    border: 1px solid black;
+    padding: 6px;
+    margin-right: 4px;
+    border-radius: 2px;
+}
+
+.button {
+    width: fit-content;
+    height: fit-content;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 3px;
+    background-color: rgba(9, 95, 255, 0.774);
+    border: .5px solid black;
+    color: white;
+    font-weight: 600;
+
+}
+
+.body-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-part {
+    align-items: center;
+    height: 85vh;
+    width: 90vw;
+    font-weight: bolder;
+    padding: 10% 5% 5% 0;
+}
+.left-part h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.left-part h1 span {
+    font-size: 50px;
+    color: rgba(9, 95, 255, 0.774);
+    font-weight: bolder;
+}
+.left-part p {
+    font-size: 25px;
+    font-weight: bolder;
+}
+.left-part p span {
+    font-size: 25px;
+    color: rgba(9, 95, 255, 0.774);
+    font-weight: bolder;
+}
+
+.right-part {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    align-items: center;
+}
+
+.right-part img {
+    height: 450px;
+    width: 500px;
+   padding: 12% 5% 3.5% 15%;
+}
+.right-part button{
+    align-items: center;
+    margin: 0 0 4px 220px;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text p{
+    font-weight: 800;
+}
+.footer-icon{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 140px 0 0;
+}
+.footer-icon a img{
+    height: 25px;
+    width: 25px;
+}
